@@ -1,0 +1,44 @@
+Table Usuaris {
+    id integer
+    Nom varchar
+    Cognom1 varchar
+    Cognom2 varchar
+    DNI varchar
+    Email varchar
+    Telefon varchar
+    DataRegistre timestamp
+}
+
+Table Doctor {
+    id integer
+    Usuari_id varchar
+    Especialitat varchar
+}
+Ref: Doctor.Usuari_id > Usuaris.id
+
+Table Pacient {
+    id integer
+    Usuari_id varchar
+    TotalGastat double
+}
+
+Ref: Pacient.Usuari_id > Usuaris.id
+
+
+Table Factura {
+    id integer
+    Pacient_id integer
+    Doctor_id integer
+    Data timestamp
+    Total double
+    Estat boolean
+}
+
+
+Table Producte {
+    id integer
+    Nom varchar
+    Descripcio varchar
+    Stock double
+    Telf_Distribuidor varchar
+}
