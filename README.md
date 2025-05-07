@@ -88,7 +88,7 @@ return await Task.Run(...);
 > pacientes como doctores. Además, el sistema debe gestionar la
 > facturación y el inventario de la aseguradora.
 
-Aquest és un plantejament senzill o minimalista de les taules, per tal de tenir una base amb la que treballar, tot i que cada taula pot tenir molts més camps interessants o més elaborats.
+Aquest disseny és una interepretació minimalista del problema.
 
 En el cas dels doctors i dels pacients, els hi poso una clau forana `usuari_id` i una clau primària `doctor_id` i `pacient_id` però en un cas pràctic, es podria fer amb una sola (`usuari_id`) i que fos forana i primària alhora.
 
