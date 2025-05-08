@@ -281,7 +281,7 @@ db.Usuaris
     .ForEach(d => Console.WriteLine($"{d.Id} -- {d.Nom} -- {d.FacturacioTotal:F2} €"));
 ```
 
-o potser un punt mig, depenent del projecte:
+o potser un punt entremig, depenent del projecte, fet d'una manera més fàcil de llegir i possiblement mantenir o debugar:
 
 ```csharp
 foreach (Usuari usuari in db.Usuaris)
@@ -298,3 +298,12 @@ foreach (Usuari usuari in db.Usuaris)
     }
 }
 ```
+
+##Pregunta 5
+
+> 5. Implementa una API REST que permita realizar operaciones CRUD
+>    (crear, leer, actualizar y eliminar) sobre la entidad de Inventario.
+
+Per tal de poder emmagatzemar dades, he fet servir una base de dades SQLite.
+
+--
