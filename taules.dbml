@@ -4,6 +4,7 @@ Table Usuaris {
     Cognom1 varchar
     Cognom2 varchar
     DNI varchar
+    Genere varchar
     Email varchar
     Telefon varchar
     DataRegistre timestamp
@@ -39,6 +40,7 @@ Table Producte {
     id integer
     Nom varchar
     Descripcio varchar
+    Preu_Unitari double
     Stock double
     Telf_Distribuidor varchar
 }
