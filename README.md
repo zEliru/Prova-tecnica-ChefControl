@@ -299,11 +299,9 @@ foreach (Usuari usuari in db.Usuaris)
 }
 ```
 
-##Pregunta 5
+## Preguntes 5 i 6
 
-> 5. Implementa una API REST que permita realizar operaciones CRUD
->    (crear, leer, actualizar y eliminar) sobre la entidad de Inventario.
-
-Per tal de poder emmagatzemar dades, he fet servir una base de dades SQLite.
+Com que aquestes dues preguntes han requerit fer un projecte bastant més gros, he decidit separar-los en dos repositoris git per no tenir tanta cosa barrejada. El podeu trobar [aquí](https://github.com/zEliru/InventariApp).
+També hi ha un README amb alguna explicació breu.
 
 --
